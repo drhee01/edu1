@@ -3,8 +3,8 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     environment {
         // Global 변수 선언
-        dockerRepo = "shclub/edu1"
-        dockerCredentials = 'docker_ci'
+        dockerRepo = "edu14/edu1"
+        dockerCredentials = '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'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
